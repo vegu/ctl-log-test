@@ -22,3 +22,4 @@
 [2018-07-17 07:56:09,630] [usage] 5e7ba64:1 dev - ran command: `ls`
 [2018-07-17 12:11:34,737] [usage] f7a7853:1 dev - ran command: `ls`
 [2018-07-17 12:11:43,727] [usage] d85bfc3:1 dev - ran command: `ls --home=.`
+[2018-07-17 12:14:20,780] [usage] bf13551:1 dev - ran command: `--help`
