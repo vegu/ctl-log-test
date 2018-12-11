@@ -1,0 +1,18 @@
+ctl:
+  plugins:
+
+    - name: repo
+      type: git
+      config:
+        repo_url: git@deploy.github.com:vegu/ctl-log-test
+        checkout_path: {{ ctx.home }}/../
+
+    - name: version
+      type: version
+      config:
+        repositories:
+          - repo
+
+  permissions:
+    - namespace: ctl
+      permission: crud
